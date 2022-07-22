@@ -21,7 +21,7 @@ const Hero = () => {
 
             </div>
 
-            <div className="bg-black mx-4 md:mx-10 md:mb-10">
+            <div className="bg-black mx-4 md:mx-10 md:mb-10 ">
                 <img className="crop mx-auto pt-40 px-10 md:px-0 pb-32 md:pb-0" src="/img/iphone.png" alt="iphone" />
             </div>
 
