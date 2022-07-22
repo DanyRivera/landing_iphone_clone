@@ -7,7 +7,6 @@ const Hero = () => {
 
             <Header />
 
-            {/* //TODO:BAR */}
             <div className="flex mx-4 my-4 justify-between items-center md:px-32">
                 <h1 className="text-lg text-white font-bold md:text-2xl">iPhone 11 Pro </h1>
 
@@ -22,7 +21,9 @@ const Hero = () => {
 
             </div>
 
-            {/* //TODO:Image Hero */}
+            <div className="bg-black mx-4 md:mx-10 md:mb-10">
+                <img className="crop mx-auto pt-40 px-10 md:px-0 pb-32 md:pb-0" src="/img/iphone.png" alt="iphone" />
+            </div>
 
         </>
 

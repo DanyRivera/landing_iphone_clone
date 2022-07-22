@@ -3,5 +3,23 @@
 @tailwind utilities;
 
 body {
-    background-color: #222;
+    background-color: #111;
+}
+
+@media (min-width: 768px) {
+    .crop {
+        width: 700px;
+        height: 780px;
+        object-fit: cover;
+        object-position: 100% 0%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .crop2 {
+        height: 780px;
+        object-fit: cover;
+        object-position: 100% 0%;
+    }
 }
